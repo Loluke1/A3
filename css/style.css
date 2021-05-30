@@ -111,27 +111,6 @@ a:active{
 	border-radius: 15px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.box-4 {
-	padding: 1% 4% 1% 4%;
-	margin:auto;
-	align:left;
-	background-color: #fef9ec;
-	color: #073642;
-	text-align: center;
-	width: 92%;
-	border-radius: 15px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.box-5 {
-	padding: 1% 4% 1% 4%;
-	margin:auto;
-	align:left;
-	background-color: #fdf6e3;
-	color: #073642;
-	text-align: center;
-	width: 92%;
-	border-radius: 15px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 .pfPic{
 	border:4px solid #839496;
