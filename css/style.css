@@ -77,6 +77,11 @@ a:active{
 	color:#839496;
 }
 
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
 
 .box-white {
 	padding: 1% 1% 1% 1%;
