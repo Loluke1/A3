@@ -124,7 +124,7 @@
           <ul>
             <li>Reminders to take medication and log the user's mood.  </li>
             <li>MoodTracker – a simple UI where users input their mood data and view a graph or statistical analysis on this. </li>
-            <li>Moodistory – a journal of sorts where specifics of one’s mood and its context can be detailed. </li>
+            <li>MoodHistory – a journal of sorts where specifics of one’s mood and its context can be detailed. </li>
           </ul>
           Although seeming quite simple on the surface, there is still considerable depth to each of these components.
           Let's start by looking at the reminders.
@@ -133,10 +133,10 @@
           These reminders may be scheduled to coincide with the taking of medication, or at other key points throughout the day (waking up, noon, afternoon, and evening perhaps). A simple implementation of this ought to be straightforward, however as the project development proceeds, some further functionality could include collecting data on notification response times. We could also develop a simple calendar tool that may allow relevant dates to be added as one-off events, such as prescription renewals or doctor’s appointments. There could be some interesting analysis conducted to compare response time with the reported mood. This leads me into the second and arguably most important component, the MoodTracker.
         </p>
         <p>
-          The MoodTracker aims to make it as easy as possible for the user to input their mood data and to pull meaningful insights from this. The most basic version of this would consist of a simple mood scale and a graph displaying the moods from previous recordings. This would allow the user to observe any obvious trends in the data – perhaps their mood and medication dose travel in unison across the chart. From here, some more rigorous analysis could be implemented. One such method is a simple linear regression, which fits a model to the data and describes any correlation. This could be expanded on by facilitating more inputs/variables to be taken into account, which would allow for multiple linear regression – a more complex but meaningful version of simple linear regression. One such input that may be added down the line could be a linguistic analysis of the Moodistory’s of that time period; this alone could yield several values to build a stronger model from.
+          The MoodTracker aims to make it as easy as possible for the user to input their mood data and to pull meaningful insights from this. The most basic version of this would consist of a simple mood scale and a graph displaying the moods from previous recordings. This would allow the user to observe any obvious trends in the data – perhaps their mood and medication dose travel in unison across the chart. From here, some more rigorous analysis could be implemented. One such method is a simple linear regression, which fits a model to the data and describes any correlation. This could be expanded on by facilitating more inputs/variables to be taken into account, which would allow for multiple linear regression – a more complex but meaningful version of simple linear regression. One such input that may be added down the line could be a linguistic analysis of the MoodHistory’s of that time period; this alone could yield several values to build a stronger model from.
         </p>
         <p>
-          The Moodistory portion of the app would be aimed at allowing the user to record their thoughts and feelings around the time of their mood recordings, and to add context to these. The simplest implementation of this would be a text box that the user fills out that can be re-read at a later date to give a greater understanding of the factors affecting mood. From here, as suggested earlier, a linguistic analysis could be performed on the entries to draw on some more data like the overall tone of the writing, the emotional inference of the writing, etc. This could be implemented with a specific set of scripts or even AI.
+          The MoodHistory portion of the app would be aimed at allowing the user to record their thoughts and feelings around the time of their mood recordings, and to add context to these. The simplest implementation of this would be a text box that the user fills out that can be re-read at a later date to give a greater understanding of the factors affecting mood. From here, as suggested earlier, a linguistic analysis could be performed on the entries to draw on some more data like the overall tone of the writing, the emotional inference of the writing, etc. This could be implemented with a specific set of scripts or even AI.
         </p>
         <p>
           We feel that the app would only need the simple or basic components outlined above to work fairly well. If we only had enough time for these, the app would still meet its aim. In order to prioritise the more advanced features, alpha testing and feedback ought to be sought. However, I would speculate that fleshing out the UX would be the next priority, as the app is pointless if the user isn’t sufficiently motivated to input the data. After this, fleshing out the MoodTracker may be the priority, as this sits at the heart of the application. From here, priorities would likely again be determined by testing again at this stage.
@@ -146,7 +146,18 @@
         <p>
           <h4>Plans and Progress </h4>
           <p>
-          The idea of our project was brought to light by our group member Jai Wells.
+          The idea of our project was brought to light by our group member Jai Wells. He has taken prescription medications on and off throughout his life, but he had always struggled to take his doses when required, especially when they had an odd dosage schedule such as twice-weekly (once every 3 and a half days) or other less easy to follow schedules. At first, Jai tried using his phone’s built-in reminder app, but he felt this wasn’t the most elegant solution as it required managing multiple reminders per medication if it wasn’t taken daily, weekly or monthly and he found it difficult to manage other reminders and distinguish them from medication reminders.
+        </p>
+        <p>
+Because of these issues Jai sought out a dedicated medication reminder app but found they didn’t offer a satisfying user experience either, from apps bloated with irrelevant features, to apps asking for a subscription payment for a simple reminder service, to apps so reliant on advertising that they wouldn’t even show you what the reminder was for without viewing an ad. Jai thought that his requirements are simple and that perhaps he could make it himself. The idea never got any further than that until recently and he went back to using his phone’s generic reminders app.
+</p>
+<p>
+As his medications often had mood altering effects, either as a side effect or as their primary purpose, Jai’s doctor often wanted him to describe how they impacted his mood, but he often found himself unable to remember how his mood had changed throughout the time between appointments. This prompted him to search for a way to track his mood. Being a techy person, Jai was drawn to mood tracking apps on his phone, eventually finding one he liked; ‘Moodistory’. Moodistory was a simple app that allowed users to put in their mood for a certain time, list what they had been doing, and provided a freeform note section where the user could type what they liked. The app would also show a breakdown of how their mood had changed over time.
+</p>
+<p>
+When tasked with making a project for assignment 1, Jai thought why not combine the features he likes about Moodistory with a simple medication reminder service. He thought the combination of this data could be used to inform his doctor more easily and directly about how medications could impact on his mood.
+
+
         </p>
         <p>
           As aforementioned, our project aims to provide an easy way for patients to track how medications affect their mood. Our project will be a mobile based application.
