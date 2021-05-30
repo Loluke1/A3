@@ -169,11 +169,12 @@ a:active{
 }
 
 .image5 {
+	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	display:block;
-	max-height: 50%;
-	max-width: 50%;
+	max-height: 25%;
+	max-width: 25%;
 }
 
 .borderforimages {
