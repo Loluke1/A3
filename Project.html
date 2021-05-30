@@ -117,6 +117,7 @@
         <h3>Detailed Description</h3>
         <p>
           <h4>Aim</h4>
+          <p>
           Our project aims to provide an easy way for patients to track how medications affect their mood. Our project will be a mobile based application. The motivation behind this is the current gap in the
           market for such an app. In order to meet this aim, we’ve come up with three core features that the app would possess:
           <ul>
@@ -126,19 +127,166 @@
           </ul>
           Although seeming quite simple on the surface, there is still considerable depth to each of these components.
           Let's start by looking at the reminders.
-          <br />
-          These reminders may be scheduled to coincide with the taking of medication, or at other key points throughout the day (waking up, noon, afternoon, and evening perhaps). A simple implementation of this ought to be straightforward, however as the project development proceeds, some further functionality could include collecting data on notification response times. We could also develop a simple calendar tool that may allow relevant dates to be added as one-off events, such as prescription renewals or doctor’s appointments. There could be some interesting analysis conducted to compare response time with the reported mood. This leads me into the second and arguably most important component, the MoodTracker.
-          <br />
-          The MoodTracker aims to make it as easy as possible for the user to input their mood data and to pull meaningful insights from this. The most basic version of this would consist of a simple mood scale and a graph displaying the moods from previous recordings. This would allow the user to observe any obvious trends in the data – perhaps their mood and medication dose travel in unison across the chart. From here, some more rigorous analysis could be implemented. One such method is a simple linear regression, which fits a model to the data and describes any correlation. This could be expanded on by facilitating more inputs/variables to be taken into account, which would allow for multiple linear regression – a more complex but meaningful version of simple linear regression. One such input that may be added down the line could be a linguistic analysis of the Moodistory’s of that time period; this alone could yield several values to build a stronger model from.
-          <br />
-          The Moodistory portion of the app would be aimed at allowing the user to record their thoughts and feelings around the time of their mood recordings, and to add context to these. The simplest implementation of this would be a text box that the user fills out that can be re-read at a later date to give a greater understanding of the factors affecting mood. From here, as suggested earlier, a linguistic analysis could be performed on the entries to draw on some more data like the overall tone of the writing, the emotional inference of the writing, etc. This could be implemented with a specific set of scripts or even AI.
-          <br />
-          We feel that the app would only need the simple or basic components outlined above to work fairly well. If we only had enough time for these, the app would still meet its aim. In order to prioritise the more advanced features, alpha testing and feedback ought to be sought. However, I would speculate that fleshing out the UX would be the next priority, as the app is pointless if the user isn’t sufficiently motivated to input the data. After this, fleshing out the MoodTracker may be the priority, as this sits at the heart of the application. From here, priorities would likely again be determined by testing again at this stage.
         </p>
         <p>
-          <h4>Plans and Progress </h4>
-
+          These reminders may be scheduled to coincide with the taking of medication, or at other key points throughout the day (waking up, noon, afternoon, and evening perhaps). A simple implementation of this ought to be straightforward, however as the project development proceeds, some further functionality could include collecting data on notification response times. We could also develop a simple calendar tool that may allow relevant dates to be added as one-off events, such as prescription renewals or doctor’s appointments. There could be some interesting analysis conducted to compare response time with the reported mood. This leads me into the second and arguably most important component, the MoodTracker.
         </p>
+        <p>
+          The MoodTracker aims to make it as easy as possible for the user to input their mood data and to pull meaningful insights from this. The most basic version of this would consist of a simple mood scale and a graph displaying the moods from previous recordings. This would allow the user to observe any obvious trends in the data – perhaps their mood and medication dose travel in unison across the chart. From here, some more rigorous analysis could be implemented. One such method is a simple linear regression, which fits a model to the data and describes any correlation. This could be expanded on by facilitating more inputs/variables to be taken into account, which would allow for multiple linear regression – a more complex but meaningful version of simple linear regression. One such input that may be added down the line could be a linguistic analysis of the Moodistory’s of that time period; this alone could yield several values to build a stronger model from.
+        </p>
+        <p>
+          The Moodistory portion of the app would be aimed at allowing the user to record their thoughts and feelings around the time of their mood recordings, and to add context to these. The simplest implementation of this would be a text box that the user fills out that can be re-read at a later date to give a greater understanding of the factors affecting mood. From here, as suggested earlier, a linguistic analysis could be performed on the entries to draw on some more data like the overall tone of the writing, the emotional inference of the writing, etc. This could be implemented with a specific set of scripts or even AI.
+        </p>
+        <p>
+          We feel that the app would only need the simple or basic components outlined above to work fairly well. If we only had enough time for these, the app would still meet its aim. In order to prioritise the more advanced features, alpha testing and feedback ought to be sought. However, I would speculate that fleshing out the UX would be the next priority, as the app is pointless if the user isn’t sufficiently motivated to input the data. After this, fleshing out the MoodTracker may be the priority, as this sits at the heart of the application. From here, priorities would likely again be determined by testing again at this stage.
+        </p>
+      </p>
+
+        <p>
+          <h4>Plans and Progress </h4>
+          <p>
+          The idea of our project was brought to light by our group member Jai Wells.
+        </p>
+        <p>
+          As aforementioned, our project aims to provide an easy way for patients to track how medications affect their mood. Our project will be a mobile based application.
+        </p>
+        <p>
+          The idea began as a simple and easy way for individuals to set reminders to take their medication. As Jai progressed with the development of his assignment 1, the idea
+          slowly expanded to being a mood tracking application for patients that are on strong mind-altering medication, such as anti-depressants (Prozac, Zoloft) and or ADHD
+          medications (Ritalin, Vyvanse). People on such medications are
+          often asked how these drugs affect their mood. The issue here is that tracking an individual’s mood can be hard. Our project idea seeks to solve this by providing users
+          with a simple and easy mobile based application that will consist of:
+          <ol>
+            <li>Allowing users to set reminders to take medication. </li>
+            <li>Allow users to track their mood with our MoodTracker.</li>
+            <li>Allow users to define why they feel the way they feel. This is with the use of our Moodistory. </li>
+            <li>Keep records of an individual’s medication and mood history. This is valuable data that doctors can take advantage of.  </li>
+          </ol>
+        </p>
+        <p>
+          The app will consist of many parts. The first part is the medication reminder. This is where the patient allocates the medication prescribed to them and their recommended daily intake and the time in which the user must take the medication. The application will allow the user to select their desired interval in which it will remind them to take their medication. For instance, the user can either be reminded 1 minute, 5 minutes, or even 30 minutes before their allocated medication time. There will be many settings in the application that the user will be able to adjust to their liking, such as vibration strength, volume, repeat reminders, day, and time or place.
+        </p>
+        <p>
+          The second part of our application is the mood tracking part or Moodistory and MoodTracker. The MoodTracker allows the user to input their mood from a given scale (1-10, 1 being bad and 10 being good). We may consider using emoji’s to replace the regular digit scale. The Moodistory part of our application allows the user to provide a short summary as to what may have influenced their mood. For example, had a good day, had a rough day, relationship issues, financial burdens, etc.
+        </p>
+        <p>
+          The initial stages of the project involved UI design ideas, as well as defining the scope of the project as clearly as possible. Rohan has been working diligently on the prototype being developed in Figma.
+        </p>
+      </p>
+      <p>
+        <h4> Roles </h4>
+        <b>Lead Developer</b><br />
+        This is an important role and would be required to finish the project as the ‘Lead Developer’ oversees the whole project and checks if the project and its progression meet the requirements for the application and business. This role would also be prominent in the timeframe and during meetings to establish what needs to be done from the other roles. <br /><br />
+        <b>Project manager</b><br />
+        The project manager leads the project and plans the project and ensure that the project meets the deadline. They manage the progress of the project and change accordingly to the situation. This role would be required if the project were to be efficient and completed. This role would be prominent in the timeframe as it would be needed weekly to set up meetings and plan ahead if there were to be any problems regarding time.
+
+        <br /><br />
+        <b>Database designer/admin</b><br />
+        The Database designer/admin maintains and operates the database of the application making sure everything is in order and in place in the database and runs smoothly. This would be required as the product revolves around gathering data and manipulating/categorizing them. So, an Admin would be important if the project were to run smoothly and ensure that the application is running well.
+
+        <br /><br />
+        <b>Data scientist </b><br />
+        The data scientist would be a role that would be needed. A data scientist would identify data from users and process the data whether they are raw or not. They would also analyse the data to see if there are trends and/or patterns in the data. Due to the project consisting of collecting and working with the user’s data the data scientist would be essential to make the application work. This role would probably be needed later in the timeframe when the database is done and the data is collected by the user.
+        <br /><br />
+        <b>UX (User Experience)/UI (User Experience) designer  </b><br />
+        These roles are highly recommended as the UX designer helps to design the application so that the user would want to use the application. The UX designer makes sure that the application is easy to use and is accessible to all users whether they are from different cultures or have conditions.  <br />
+The UI designer works closely with the UX designer and designs user interface elements such as buttons, links and menus that would fit with the UX designer’s overall design and vision.
+The UX and UI designer would be frequent on the timeframe as they would be working on the project week to week.
+        <br /><br />
+        <b>System analyst </b><br />
+        The system analyst analyses how well the software, hardware and the wider IT system fit the business needs of their employer or a client by analyzing problems regarding the system. They also develop solutions preparing and gauging alternate workflow solutions. The system analyst would be frequent on the timeframe as they would have to repeatedly check on the project to see if the project fits with the requirements of the business every time there are changes to the project.
+        <br /><br />
+
+
+      </p>
+
+      <p>
+        <h4> Scope and Limits</h4>
+        <!-- wtf is this... ffs -->
+        Scopes:
+        <ul>
+          <li>The project is an artifact.</li>
+          <li>The artifact is a prototype. </li>
+          <li> The prototype may have a database design which can store the relevant data which is used to run the application. </li>
+          <li>The prototype has a UI Which allows the user to complete basics tasks such as input their medication and dosage. As well as use the data inputted to calculate a graph which tracks the users' data. </li>
+        </ul>
+
+        <br /> <br />
+        Limits:
+        <ul>
+          <li>Time limit of 3 weeks (due 30th May 2021). Issue exacerbated by poor time utilisation.</li>
+          <li>Recording of meetings can only be on Microsoft teams. </li>
+          <li>Cost of membership on a software would be hard to implement as there are many features for the prototype which would be distinct. Which would cause us to make multiple versions of the prototype.  </li>
+        </ul>
+      </p>
+
+      <p>
+        <h4> Tools and Technologies </h4>
+        <ul>
+          <li>Desktop (running Windows, macOS or Linux)</li>
+          <li> Figma software (prototype) </li>
+          <li>React (front-end JavaScript library) </li>
+          <li>React Native (open-source mobile application framework) </li>
+          <li>GitHub </li>
+          <li>Atom, Visual Studio code or Notepad++ (source code software) </li>
+          <li>Google’s Android studio (software, requires $25 USD for one-time fee) </li>
+          <li>Apple’s developer program (software, requires $99 USD per year of membership) </li>
+        </ul>
+
+      </p>
+
+      <p>
+        <h4> Testing </h4>
+        <p>As our project stems around user input/usage, this requires our testing methodology to include user testing. At our current stage of development and prototype, testing may only currently involve nonfunctional and unit testing. This is an early stage of testing and will be carried out by ourselves. This level of testing will be conducted manually. Unit testing is to ensure that each individual component of our software is functional and works as intended. Throughout the production of our software, we aim to utilise continuous testing to ensure that bugs or any issues are identified and rectified earlier.
+        </p>
+        <p>
+          In the later stages of development, our testing will encompass many testing methodologies such as system testing, performance testing, security testing and user testing.
+        </p>
+        <p>
+          System testing will be the final testing stage after unit testing. System testing is a method that allows us to evaluate the system, to ensure that it meets all specified requirements.
+        </p>
+        <p>
+          Performance testing will be used to determine how our application will behave under various conditions. The goal of performance and user testing is to assess the responsiveness and stability in real user situations. There are many aspects to this level of testing that can be broken down into three parts:
+        </p>
+        <ul>
+          <li>
+            Load testing – This is the process of stimulating demand/usage on our software to verify whether it not it can handle what it is designed to do.  </li>
+            <li>
+              Stress testing – This level further tests our software’s ability to handle load which exceeds it’s designed load. Our software is deliberately overloaded to understand how our system will react and behave. Stress testing verifies the stability and reliability of the software, measuring its capabilities under extreme load. </li>
+              <li>
+            Endurance testing – is used to analyse the behaviour of our software under a specific amount of simulated load over long periods of time. The goal of this testing is to understand how our software will behave under sustained use.  </li>
+          </ul>
+          <p>
+            Security in general is a major priority for our software application. As our software revolves around user data and user input, security of such data is prime. The data that will be stored in our application are user medication and mood. Security testing is a technique used to determine whether information and data in a system is protected. The purpose of security testing is to find exploits or security risks that could result in unauthorised access to confidential information. Security testing aims to verify six basic principles of security:
+          </p>
+          <ol>
+            <li>Integrity </li>
+            <li>Confidentiality </li>
+            <li>Authentication </li>
+            <li>Authorisation </li>
+            <li>Availability </li>
+            <li>Non-repudiation </li>
+          </ol>
+          <p>
+            Our application will embody a substantial amount of user input. Another testing methodology we may apply is the scenario-oriented acceptance criteria. This approach utilises the given/when/then (GWT) sequence.
+          </p>
+          <ul>
+            <li><i>Given</i> some precondition</li>
+            <li><i>When</i> I do some action</li>
+            <li><i>Then</i> I expect some result</li>
+          </ul>
+          Example 1 - User sets medication reminder:
+          <ul>
+            <li>Given: The user navigates to the set reminder page </li>
+            <li>When: The user inputs medication and medication dosage </li>
+            <li>And: Sets reminder for time, place, date and reoccurrence </li>
+            <li>Then: The system confirms the set reminder. </li>
+          </ul>
+          <p>
+            Alongside this, after development is completed. We will incorporate user testing. Having a small sample size of maybe 5-10 users to trial our application is essential. Our test group will be asked to trial the application for a period of time. During this time, they will utilise most, if not all aspect of our application. This includes the medication reminder, MoodHistory and Moodtracker aspects. User testing provides us with valuable information to fix or improve on, whether it be bugs, issues, pros and cons of the software, or even complaints with aesthetics.
+          </p>
+        </p>
+
       </div>
   </div>
 
